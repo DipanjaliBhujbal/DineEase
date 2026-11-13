@@ -1,0 +1,70 @@
+HELP.md
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+logs/
+
+# Local configuration containing credentials
+application-local.properties
+application-local.yml
+application-local.yaml
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Local repair backups
+repair-backup-*/
+
+# Local Spring configuration and backups
+src/main/resources/application-local.properties
+application.properties.backup
+
+# Backup files anywhere in the project
+*.bak
+*.bak-*
+**/application.properties.backup
+
+# Backup files
+*.backup-*
+
+# Generated build output and development OTP files
+**/target/
+**/dev-otp.txt
